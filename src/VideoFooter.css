@@ -1,0 +1,49 @@
+.videoFooter {
+  position: relative;
+  bottom: 60px;
+  margin-left: 10px;
+}
+
+.videoFooter__text {
+  position: absolute;
+  
+  bottom: 24px;
+  display: flex;
+  color: white;
+  margin-bottom: 20px;
+}
+
+
+.videoFooter__text > p {
+  margin-left: 10px;
+  padding-bottom: 30px;
+}
+
+.videoFooter__text > h3 > button {
+  color: white;
+  font-weight: 600;
+  text-transform: inherit;
+}
+
+.videoFooter__ticker > .ticker{
+    height: fit-content;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    width: 60%;
+}
+
+.videoFooter__icon {
+  position: absolute;
+  left: 5px;
+  
+  color: white;
+}
+
+
+.videoFooter__action{
+    display: flex;
+    position: absolute;
+    width: 95%;
+    justify-content: space-between;
+
+}
