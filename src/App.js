@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
 import instagramLogo from "./instagram.png";
-import video from "./video.mp4";
+
 import VideoCard from "./VideoCard";
 import db from "./firebase";
 

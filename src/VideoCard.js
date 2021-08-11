@@ -1,8 +1,8 @@
 import "./VideoCard.css";
-import video from "./video.mp4";
+
 import VideoHeader from "./VideoHeader"
 import VideoFooter from "./VideoFooter"
-import react, {useRef, useState} from "react";
+import React, {useRef, useState} from "react";
 
 function VideoCard({url, channel, avatarSrc, song, likes, shares}){
   // using useState does render the whole component  everytime when state changes 
