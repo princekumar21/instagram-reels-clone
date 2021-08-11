@@ -1,49 +1,98 @@
 .videoFooter {
-  position: relative;
-  bottom: 60px;
-  margin-left: 10px;
+  position: absolute;
+  bottom: 100px;
+  margin-left: 2px;
+  width: 100%;
+}
+
+.videoFooter__ticker {
+  margin-bottom: -91px;
 }
 
 .videoFooter__text {
   position: absolute;
-  
-  bottom: 24px;
+  margin-left: 11.5px;
+  bottom: -80px;
   display: flex;
-  color: white;
+  color: #fdfeff;
   margin-bottom: 20px;
 }
 
-
 .videoFooter__text > p {
   margin-left: 10px;
-  padding-bottom: 30px;
-}
-
-.videoFooter__text > h3 > button {
-  color: white;
+  padding-bottom: 20px;
+  margin-right: 20px;
   font-weight: 600;
-  text-transform: inherit;
 }
 
-.videoFooter__ticker > .ticker{
-    height: fit-content;
-    margin-left: 30px;
-    margin-bottom: 20px;
-    width: 60%;
+.videoFooter__text > p > button > span {
+  color: #fdfeff;
+  font-weight: 500;
+  text-transform: capitalize;
 }
+
+/* .videoFooter__ticker{
+  display: flex;
+} */
+
+.videoFooter__ticker > .ticker {
+  height: fit-content;
+  margin-left: 30px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  width: 60%;
+  color: #fdfeff;
+}
+
+/* .videoFooter__ticker > p {
+  font-size: 12px;
+  padding-top: 7px;
+  color: #FDFEFF;
+} */
 
 .videoFooter__icon {
   position: absolute;
   left: 5px;
-  
-  color: white;
+
+  color: #fdfeff;
 }
 
+.videoFooter__action {
+  display: flex;
+  position: absolute;
+  width: 95%;
+  color: #fdfeff;
+  justify-content: space-between;
+}
 
-.videoFooter__action{
-    display: flex;
-    position: absolute;
-    width: 95%;
-    justify-content: space-between;
+.videoFooter__actionLeft {
+  display: flex;
+  position: absolute;
+  color: #fdfeff;
+  align-items: center;
+  margin-bottom: 5px;
+  bottom: -94px;
+}
 
+.videoFooter__actionLeft > .MuiSvgIcon-root {
+  padding: 0px 8px;
+}
+
+.videoFooter__actionRight {
+  display: flex;
+  right: 4px;
+  position: absolute;
+  bottom: -102px;
+}
+
+.videoFooter__stat {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.videoFooter__stat > p {
+  margin-left: 3xp;
+  font-size: 15px;
+  font-weight: 500;
 }

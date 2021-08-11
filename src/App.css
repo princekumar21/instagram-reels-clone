@@ -13,18 +13,20 @@ html{
   margin-bottom: -100px;
 }
 .app__logo {
+  margin-top: -59px;
   height: 12vh;
 }
 
 .reels__text {
   text-align: center;
   color: white;
+  margin: 0;
 }
 
 .app__video {
   position: relative;
-  height: 65vh;
-  width: 40%;
+  height: 75vh;
+  width: 25%;
   background-color: white;
   border-radius: 20px;
   max-width: 450px;
